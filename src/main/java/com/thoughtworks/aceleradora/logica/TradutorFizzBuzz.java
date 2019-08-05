@@ -11,11 +11,12 @@ public class TradutorFizzBuzz {
         } else {
             System.out.println("nada");
         }
-//        String numero = Integer.parseInt(3); //numero == "2"
 
         if (numero % 5 == 0){
             return "Buzz";
         }
+
+        //        String numero = Integer.parseInt(3); //numero == "2"
         return null;
     }
 
